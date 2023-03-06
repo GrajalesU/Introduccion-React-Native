@@ -16,7 +16,7 @@ Greeting.defaultProps = {
   lastName: ":)",
 };
 
-Greeting.PropTypes = {
-  fistName: PropTypes.string.isRequired,
+Greeting.propTypes = {
+  firstName: PropTypes.string.isRequired,
   lastName: PropTypes.string,
 };
