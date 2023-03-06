@@ -8,8 +8,8 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello world!</Text>
       <LoginForm />
-      <Greeting name={"Carlos"} />
-      <Greeting />
+      <Greeting firstName={"Carlos"} />
+      <Greeting firstName={"Fernando"}/>
       <StatusBar style="auto" />
     </View>
   );
